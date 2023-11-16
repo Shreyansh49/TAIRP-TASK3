@@ -1,0 +1,31 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(rose-1309866.jpg);
+}
+main{
+    width:70%;
+    height:500px;
+    border:2px solid black;
+    margin:20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide{height:498px;
+margin:auto;
+width:950px;
+position:absolute;
+transition:1s;}
+
+.nav{text-align: center;
+    margin-top:20px;
+}
+button{
+    height:35px;
+    width:70px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 170);
+}
